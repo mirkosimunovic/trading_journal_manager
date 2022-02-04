@@ -27,7 +27,6 @@ width_info_column = 40    # Width of columns with extended text
 #############################################################################################
 
 
-os.system('rm trading_journal.xlsx')
 
 def image_found(path):
 	list_files = glob.glob(path)
